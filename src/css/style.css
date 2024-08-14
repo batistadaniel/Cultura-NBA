@@ -624,17 +624,19 @@ footer p {
     }
 }
 
-@media screen and (min-width: 942px) {
+/* @media screen and (min-width: 942px) {
     .menu-mobile.abrir-menu {
         width: 350px;
     }
-}
+} */
 
 @media screen and (max-width: 942px) {
-
+    .menu-mobile.abrir-menu {
+        width: 75%;
+    }
     /* RESPONSIVO SECAO HISTORIA */
     main section .banner-historia-liga {
-        width: 80%;
+        width: 100%;
     }
     main section#historia-da-liga {
         display: flex;
