@@ -132,7 +132,7 @@ header {
 } */
 
 .menu-mobile.abrir-menu {
-    width: 350px;
+    width: 75%;
 }
  .menu-mobile.abrir-menu ~ .overlay-menu { /* ~ */
     display: block;
